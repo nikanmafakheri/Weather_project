@@ -4,7 +4,7 @@ A simple Django-based weather app that provides weather information using the Op
 
 ## Features
 
-- **Weather Information**: Displays the current weather, temperature, humidity, and wind speed of any city.
+- **Weather Information**: Displays the current weather and temperature of any city.
 - **API Integration**: Fetches data from the OpenWeatherMap API.
 - **User-Friendly UI**: Easy-to-use interface to search and view weather details.
 
@@ -12,8 +12,7 @@ A simple Django-based weather app that provides weather information using the Op
 
 - **Backend**: Django
 - **API**: OpenWeatherMap
-- **Frontend**: HTML, CSS, and JavaScript (optional, if you're using JS for dynamic content)
-- **Database**: SQLite (or PostgreSQL, if used)
+- **Frontend**: HTML, CSS
 
 ## Installation
 
@@ -56,5 +55,5 @@ A simple Django-based weather app that provides weather information using the Op
 
 ## Usage
 
-- Enter the name of a city in the search bar and click "Search."
+- Enter the name of a city in the search bar and click "Get Forecast"
 - The app will display the current weather information for that city, including temperature, humidity, wind speed, and weather conditions.
